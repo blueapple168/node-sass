@@ -74,5 +74,6 @@ RUN npm install -g node-gyp && \
     npm install -g lodash.get@4.4.2 && \
     npm install -g lodash.pick@4.4.0 && \
     npm install -g node-emoji && \
-    npm install -g cnpm --registry=https://registry.npm.taobao.org && \
-    npm install
+    npm install -g cnpm --registry=https://registry.npm.taobao.org
+ COPY ./package.json ./package.json
+ RUN npm install -g
