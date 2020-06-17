@@ -1,0 +1,98 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build:report": "vue-cli-service --report build",
+    "lint": "vue-cli-service lint",
+    "svgo": "svgo -f src/components/svgIcon/svg --config=src/components/svgIcon/svgo.yml"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "core-js": "^2.6.5",
+    "element-ui": "2.8.2",
+    "js-cookie": "^2.2.0",
+    "jwt-decode": "^2.2.0",
+    "moment": "^2.24.0",
+    "normalize.css": "^8.0.1",
+    "nprogress": "^0.2.0",
+    "sass-loader": "^8.0.2",
+    "sockjs-client": "^1.3.0",
+    "stompjs": "^2.3.2",
+    "vue": "^2.6.10",
+    "vue-echarts": "^3.0.9",
+    "vue-grid-layout": "^2.3.4",
+    "vue-router": "^3.0.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.7.0",
+    "@vue/cli-plugin-eslint": "^3.7.0",
+    "@vue/cli-service": "^3.7.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-component": "^1.1.1",
+    "css-loader": "^1.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "node-sass": "^4.14.1",
+    "qs": "^6.9.1",
+    "svg-sprite-loader": "3.8.0",
+    "svgo": "1.0.5",
+    "vue-template-compiler": "^2.5.21",
+    "webpack-bundle-analyzer": "^3.3.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "globals": {
+      "$": false
+    },
+    "rules": {
+      "space-before-function-paren": 0,
+      "eqeqeq": 0,
+      "object-curly-spacing": 0,
+      "quotes": 0,
+      "key-spacing": 0,
+      "comma-spacing": 0,
+      "spaced-comment": 0,
+      "semi": 0,
+      "comma-dangle": 0,
+      "indent": 0,
+      "block-spacing": 0,
+      "no-multiple-empty-lines": 0,
+      "padded-blocks": 0,
+      "space-before-blocks": 0,
+      "no-tabs": 0,
+      "space-infix-ops": 0,
+      "dot-location": 0,
+      "handle-callback-err": 0,
+      "keyword-spacing": 0,
+      "vue/no-use-v-if-with-v-for": 0,
+      "no-unused-vars": 0,
+      "curly": 0
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
