@@ -76,4 +76,4 @@ RUN npm install -g node-gyp && \
     npm install -g node-emoji && \
     npm install -g cnpm --registry=https://registry.npm.taobao.org
  COPY ./package.json ./package.json
- RUN npm install -g
+ RUN npm install
