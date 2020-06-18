@@ -76,7 +76,7 @@ RUN npm install -g node-gyp && \
     npm install -g node-emoji && \
     npm install -g cnpm --registry=https://registry.npm.taobao.org && \
     npm install -g sass-loader && \
-    npm install --save-dev sass fibers fsevents
+    npm install --save-dev sass fibers
  COPY ./package.json ./package.json
  RUN npm install && \
      npm audit fix
