@@ -78,4 +78,5 @@ RUN npm install -g node-gyp && \
     npm install -g sass-loader && \
     npm install --save-dev sass fibers fsevents
  COPY ./package.json ./package.json
- RUN npm install
+ RUN npm install && \
+     npm audit fix
