@@ -1,4 +1,5 @@
-FROM node:lts-buster
+ARG NODE_IMAGETAG_VERSION=lts-buster
+FROM node:$NODE_IMAGETAG_VERSION
 
 MAINTAINER blueapple1120@qq.com
 LABEL node.version="14.15.1" \
