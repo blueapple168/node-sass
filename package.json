@@ -42,7 +42,7 @@
     "node-sass": "^4.14.1",
     "qs": "^6.9.1",
     "svg-sprite-loader": "3.8.0",
-    "svgo": "1.0.5",
+    "svgo": "2.8.4",
     "vue-template-compiler": "^2.5.21",
     "webpack-bundle-analyzer": "^3.3.2"
   },
